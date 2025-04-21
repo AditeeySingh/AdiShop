@@ -43,13 +43,6 @@
 <img width="1700" alt="Screenshot 2025-04-21 at 3 14 13 PM" src="https://github.com/user-attachments/assets/24094525-80e6-4329-a00e-87689f7f5b49" />
 <img width="1655" alt="Screenshot 2025-04-21 at 3 14 21 PM" src="https://github.com/user-attachments/assets/0e6e8045-42e1-423c-b85b-151606efffa7" />
 
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
 ---
 
 ## 🙌 Acknowledgements
