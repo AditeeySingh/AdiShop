@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* Light gray background */
+  color: #111827; /* Dark gray text */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #7c3aed; /* Purple hover effect */
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

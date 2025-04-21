@@ -3,38 +3,38 @@ import { ShieldCheck, Truck, Clock, Award, Users, Mail } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="bg-gray-950 text-gray-100 min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-gray-900 to-black py-20">
+      <section className="bg-gradient-to-r from-purple-800 to-indigo-900 py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About AdiShop</h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About AdiShop</h1>
+          <p className="text-gray-300 text-lg max-w-3xl mx-auto">
             This end-term project by Aditeey Singh is driven by a mission to demonstrate how high-quality design and seamless functionality can make online shopping intuitive, engaging, and enjoyable for users.
           </p>
         </div>
       </section>
       
       {/* Our Story */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-900">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img
                 src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg"
                 alt="Our team"
-                className="rounded-lg shadow-xl w-full"
+                className="rounded-lg shadow-2xl w-full"
               />
             </div>
             
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-              <p className="text-gray-300 mb-4">
-                Created by Aditeey Singh in 2025, this project was developed as part of an end term submission, aimed at showcasing skills in modern web development and user experience design.
+              <h2 className="text-4xl font-bold mb-6">Our Story</h2>
+              <p className="text-gray-400 mb-4">
+                Created by Aditeey Singh in 2025, this project was developed as part of an end-term submission, aimed at showcasing skills in modern web development and user experience design.
               </p>
-              <p className="text-gray-300 mb-4">
+              <p className="text-gray-400 mb-4">
                 What began as a conceptual exercise quickly evolved into a full-fledged online shopping experience prototype. The focus was on clean design, intuitive navigation, and responsive performance across devices.
               </p>
-              <p className="text-gray-300">
+              <p className="text-gray-400">
                 This site features a curated layout that simulates a real-world e-commerce platform, demonstrating how thoughtful design and structured components can enhance user interaction and satisfaction.
               </p>
             </div>
@@ -43,11 +43,11 @@ const AboutPage: React.FC = () => {
       </section>
       
       {/* Values */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-16 bg-gradient-to-b from-gray-900 to-gray-950">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Values</h2>
-            <p className="text-gray-300 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-bold mb-4">Our Values</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">
               These core principles guide everything we do and define how we serve our customers.
             </p>
           </div>
@@ -70,12 +70,12 @@ const AboutPage: React.FC = () => {
                 description: "We're committed to continuous improvement and exceeding expectations in everything we do."
               }
             ].map((value, index) => (
-              <div key={index} className="bg-gray-800 rounded-lg p-6 text-center">
+              <div key={index} className="bg-gray-800 rounded-lg p-8 text-center shadow-lg">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-900 mb-4">
                   {value.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
-                <p className="text-gray-300">{value.description}</p>
+                <h3 className="text-2xl font-semibold mb-3">{value.title}</h3>
+                <p className="text-gray-400">{value.description}</p>
               </div>
             ))}
           </div>
@@ -83,16 +83,16 @@ const AboutPage: React.FC = () => {
       </section>
       
       {/* Why Choose Us */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-950">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Choose AdiShop</h2>
-            <p className="text-gray-300 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-bold mb-4">Why Choose AdiShop</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">
               We strive to deliver the best shopping experience possible. Here's what sets us apart.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: <Truck size={24} className="text-purple-500" />,
@@ -115,7 +115,7 @@ const AboutPage: React.FC = () => {
                 description: "Every product is quality-checked and backed by our satisfaction guarantee."
               }
             ].map((feature, index) => (
-              <div key={index} className="bg-gray-900 border border-gray-800 rounded-lg p-6">
+              <div key={index} className="bg-gray-900 border border-gray-800 rounded-lg p-6 shadow-md">
                 <div className="flex items-center mb-4">
                   {feature.icon}
                   <h3 className="text-lg font-semibold ml-3">{feature.title}</h3>
@@ -134,14 +134,14 @@ const AboutPage: React.FC = () => {
             <Mail size={28} className="text-white" />
           </div>
           
-          <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
+          <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8">
             Have questions, feedback, or need assistance? Our customer service team is here to help.
           </p>
           
           <a
-            href="mailto:support@luxeshop.com"
-            className="bg-white text-purple-900 hover:bg-gray-100 py-3 px-8 rounded-md transition-colors font-medium inline-block"
+            href="mailto:support@adishop.com"
+            className="bg-white text-purple-900 hover:bg-gray-100 py-3 px-8 rounded-md transition-colors font-medium inline-block shadow-lg"
           >
             Contact Us
           </a>
