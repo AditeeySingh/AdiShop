@@ -130,17 +130,17 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Alex Morgan",
-                text: "The quality of the products exceeded my expectations. Fast shipping and great customer service!",
+                name: "Cristiano Ronaldo",
+                text: "I love shopping here! The quality is top-notch and the prices are unbeatable. Highly recommend!",
                 rating: 5
               },
               {
-                name: "Sarah Johnson",
-                text: "I've been shopping here for months now. Never disappointed with my purchases. Highly recommend!",
-                rating: 5
+                name: "Michelee Obama",
+                text: "The customer service is fantastic! They helped me find exactly what I was looking for.",
+                rating: 4                
               },
               {
-                name: "Mike Peterson",
+                name: " Elon Musk",
                 text: "Great selection of products at competitive prices. The new arrivals are always on trend.",
                 rating: 4
               }
